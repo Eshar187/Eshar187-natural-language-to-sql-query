@@ -44,14 +44,13 @@ Pipeline:
 ### Streamlit App
 https://eshar187-natural-language-to-sql-query-oxzjfbemdureaqd9pwsbpa.streamlit.app/
 
-Input Screen
+Input and Output Screen
 
 
 <img width="1320" height="616" alt="image" src="https://github.com/user-attachments/assets/d1309a20-a7ba-481d-bc73-d6590ce8a821" />
 
 
-
-Output
+Cross checking
 
 
 <img width="1547" height="304" alt="image" src="https://github.com/user-attachments/assets/76b0fd6e-6505-492a-b6be-1517196ba10b" />
