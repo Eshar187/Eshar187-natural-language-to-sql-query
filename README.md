@@ -1,31 +1,23 @@
 # Natural-Language-To-SQL-Query
 
-# Natural Query: NL → SQL with RAG
-
 ### Overview
 
 Natural Query enables users to interact with a SQL database using plain English.
 It uses Retrieval Augmented Generation (RAG) with Google Generative AI (text-bison-001) and LangChain to:
 
-Convert natural language queries → SQL commands
-
-Execute queries on a database (MySQL)
-
-Return results in natural language format
+   * Convert natural language queries → SQL commands
+   * Execute queries on a database (MySQL)
+   * Return results in natural language format
 
 This project simplifies database interaction for non-technical users.
 
 ### Tech Stack
 
-Python
-
-LangChain
-
-Google Generative AI (PaLM API / text-bison-001)
-
-MySQL (PyMySQL for DB connection)
-
-Streamlit (Frontend UI)
+* Python
+* LangChain
+* Google Generative AI (PaLM API / text-bison-001)
+* MySQL (PyMySQL for DB connection)
+* Streamlit (Frontend UI)
 
 ### Features
 
@@ -43,18 +35,15 @@ Streamlit (Frontend UI)
 
 Pipeline:
 
-User inputs query in natural language
-
-LLM (Google Generative AI) parses intent & generates SQL
-
-SQL executed on MySQL DB
-
-Results formatted into natural language output
-
-Displayed via Streamlit app
+1. User inputs query in natural language
+2. LLM (Google Generative AI) parses intent & generates SQL
+3. SQL executed on MySQL DB
+4. Results formatted into natural language output
+5. Displayed via Streamlit app
 
 
 ### Streamlit App
+https://eshar187-natural-language-to-sql-query-oxzjfbemdureaqd9pwsbpa.streamlit.app/
 Input Screen
 
 <img width="1320" height="616" alt="image" src="https://github.com/user-attachments/assets/d1309a20-a7ba-481d-bc73-d6590ce8a821" />
